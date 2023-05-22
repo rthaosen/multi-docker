@@ -23,7 +23,5 @@ jobs:
       - run: docker push rthaosen/multi-server-10-14
       - run: docker push rthaosen/multi-worker-10-14
  
-      - name: Generate deployment package
-        run: zip -r deploy.zip . -x '*.git*'
  
       
